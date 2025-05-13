@@ -28,7 +28,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 33
-
+    namespace "pl.payu.sdk.flutter"
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
